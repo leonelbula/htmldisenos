@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/detallepost.css">
   </head>
   <body>
     <header>
@@ -29,7 +30,7 @@
 
           <img src="img/blog1.jpg" class="img-blog" alt="publicacion" />
           <span>Publicado el : 2023-07-04</span>
-          <p class="articulo-post-text">
+          <p class="post-text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit
             nisi veniam rerum, veritatis temporibus enim. Odio perspiciatis
             quidem aliquid possimus. Cumque ullam perferendis vel nam similique
@@ -44,33 +45,41 @@
             consectetur adipisicing elit. Blanditiis, architecto quidem atque
             porro rem quae? Corrupti nulla iusto nemo aut quis nobis non quas
             ullam, ratione totam molestiae amet saepe!
-          </p>
-          <a href="detallespost.html" class="btn">Ver post</a>
+          </p>         
         </article>
-        <article class="articulos-post">
-          <h2 class="articulo-post-titulo">titulo de la publicacion</h2>
-          <img src="img/blog2.jpg" class="img-blog" alt="publicacion" />
-          <span>Publicado el : 2023-07-04</span>
-          <p class="articulo-post-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit
-            nisi veniam rerum, veritatis temporibus enim. Odio perspiciatis
-            quidem aliquid possimus. Cumque ullam perferendis vel nam similique
-            porro earum consequatur?
-          </p>
-          <a href="detallespost.html" class="btn">Ver post</a>
-        </article>
-        <article class="articulos-post">
-          <h2 class="articulo-post-titulo">titulo de la publicacion</h2>
-          <img src="img/blog3.jpg" class="img-blog" alt="publicacion" />
-          <span>Publicado el : 2023-07-04</span>
-          <p class="articulo-post-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit
-            nisi veniam rerum, veritatis temporibus enim. Odio perspiciatis
-            quidem aliquid possimus. Cumque ullam perferendis vel nam similique
-            porro earum consequatur?
-          </p>
-          <a href="detallespost.html" class="btn">Ver post</a>
-        </article>
+        <article>
+            <div class="form-comet">
+                <form action="" method="post" class="form">
+                    <input type="text" name="nombre" id="nombre" class="txt-nombre" placeholder="Ingresa tu numbre">
+                    <textarea name="comentario" id="" cols="30" rows="5" class="text-coment">
+                    </textarea>
+                    <input type="submit" value="Comentar" class="btn">
+                </form>
+            </div>
+            <hr>
+            <h2>Lista de comentarios</h2>
+            <div class="list-comet">
+                <div class="coment">
+                    <h3>Autor: nombre del autor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eveniet placeat? Aspernatur nisi repellendus magnam perspiciatis asperiores sit sapiente ipsa, vitae, impedit unde voluptatibus quidem tempora libero ut vel minima.
+                    </p>
+                    <div class="coment-respuet">
+                        <h3>Respuesta</h3>
+                        <h3>Autor: nombre del autor</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eveniet placeat? Aspernatur nisi repellendus magnam perspiciatis asperiores sit sapiente ipsa, vitae, impedit unde voluptatibus quidem tempora libero ut vel minima.
+                        </p>
+                    </div>
+                </div>
+                <div class="coment">                   
+                    <h3>Autor: nombre del autor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eveniet placeat? Aspernatur nisi repellendus magnam perspiciatis asperiores sit sapiente ipsa, vitae, impedit unde voluptatibus quidem tempora libero ut vel minima.
+                    </p>
+                </div>
+            </div>            
+        </article>       
       </section>
       <aside class="opciones">
         <div class="link">

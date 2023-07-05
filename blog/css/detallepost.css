@@ -1,0 +1,35 @@
+.post-text{
+    width: 800px;
+    padding: 10px;
+}
+.txt-nombre{
+    background-color: rgb(52, 67, 67,0.3);
+    padding: 10px 10px;
+}
+.text-coment{
+    width: 100%;
+    margin: 5px 0px;
+}
+.list-comet{
+    padding: 10px 20px;
+}
+.coment{
+    border: 1px solid rgb(52, 67, 67,0.2);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.coment h3{
+    font-size: 13px;
+    color: #0a1414;
+}
+.coment p{
+    margin-left: 30px;
+}
+.coment .coment-respuet{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border: 1px solid rgb(52, 67, 67,0.2);
+    border-radius: 10px;
+}
