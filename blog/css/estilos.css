@@ -164,3 +164,61 @@ footer{
     padding: 20px 0px;
 }
 
+@media(max-width:720px) {
+    .container h1{
+        font-size: 20px;
+    }
+    .navbar {
+       text-align: center;
+       margin-bottom: 0px;
+    }
+    main{
+        flex-direction: column;       
+    }
+    .articulo-post-titulo{
+        font-size: 14px;
+    }
+    .articulo-post-text{
+        font-size: 12px;
+    }
+    .btn{
+        padding: 3 5px;
+        font-size: 12px;
+    }
+    .opciones{
+        order: -1;
+        align-content: center;
+        padding: 5px 5px;
+        
+    }
+    .articulos-relevantes-content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .articulo-post-text{
+        width: auto;
+    }
+    .link a{
+        font-size: 12px;
+        text-align: center;
+    }
+    .form input{
+        width: 90%;
+        margin: 0 auto;
+        padding: 5px 5px;
+    }
+    .fecha-publicacione{
+        font-size: 14px;
+        text-align: center;
+    }
+    .fechas a{
+        font-size: 14px;
+    }
+    footer h2{
+        font-size: 25px;
+    }
+    footer p{
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
